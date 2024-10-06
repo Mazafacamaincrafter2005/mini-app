@@ -3,7 +3,7 @@ document.getElementById('sendMessage').addEventListener('click', () => {
     const chatId = 'YOUR_CHAT_ID';
     const message = 'Hello from Mini App!';
 
-    fetch(`https://api.telegram.org/bot${botToken}/sendMessage`, {
+    fetch(`https://api.telegram.org/bot${7624046289:AAESUhz8qi8nFWtBtNcN1ovE89eb-mFWxek}/sendMessage`, {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'
